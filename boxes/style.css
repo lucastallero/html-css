@@ -1,0 +1,81 @@
+.nav-bar {
+    height: 48px;
+    font-family:Roboto-Black, Arial, sans-serif;
+    font-size: 13px;
+    box-sizing: border-box;
+    display: block;
+    direction: ltr;
+}
+
+.apps,
+#app-icon,
+#img-link,
+#gmail-link,
+.pf-ic {
+    float:right
+}
+
+#app-icon {
+    padding: 4px;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    align-items: middle;
+}
+
+#img-link,
+#gmail-link {
+    padding: 4px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.pf-ic {
+    box-sizing: content-box;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#prof-icon {
+    width: 32px;
+    padding: 4px;
+    height: auto;
+}
+
+.center-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 560px);
+    max-height: 290px;
+    min-height: 92px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+#google-logo {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+
+    height: auto;
+    object-position: center bottom;
+}
+
+.search-bar {
+    background-color: transparent;
+    color: white;
+    border-color: currentColor;
+    outline-color: currentColor;
+}
+
+#bar {
+    display:inline-block
+}
