@@ -1,0 +1,17 @@
+* {
+    background-color: white;
+}
+
+#title {
+    font-family: Georgia;
+    background-color: transparent;
+    text-align: center;
+    padding: 11px;
+    padding-bottom: 40px;
+}
+
+.background-box {
+    margin-top: 100px;
+    background-color: lightgrey;
+    border-radius: 100px;
+}
